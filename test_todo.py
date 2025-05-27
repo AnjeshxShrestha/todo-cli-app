@@ -1,8 +1,6 @@
 import unittest
 from todo_core import add_todo, mark_done, delete_todo
-
 class TestTodoFunctions(unittest.TestCase):
-
     def test_add_todo(self):
         todos = []
         todos = add_todo(todos, "Test task")
