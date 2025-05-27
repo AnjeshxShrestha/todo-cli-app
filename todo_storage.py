@@ -1,6 +1,5 @@
 import os
 import json
-
 TODO_FILE = "todos.json"
 
 def load_todos():
